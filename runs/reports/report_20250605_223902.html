@@ -1,0 +1,228 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>运动检测报告</title>
+
+            <style>
+                body { font-family: Arial, sans-serif; margin: 30px; }
+                .container { max-width: 1200px; margin: auto; }
+                .header { text-align: center; border-bottom: 2px solid #333; padding-bottom: 20px; margin-bottom: 30px; }
+                .section { margin-bottom: 40px; }
+                .section-title { font-size: 24px; color: #333; border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-bottom: 20px; }
+                .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px; }
+                .stat-item { background-color: #f9f9f9; padding: 20px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+                .stat-label { font-weight: bold; margin-bottom: 10px; }
+                .chart-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 20px; margin-bottom: 30px; }
+                .chart-container { background-color: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+                .chart-container img { max-width: 100%; height: auto; display: block; }
+                .footer { margin-top: 40px; text-align: center; color: #777; font-size: 0.9em; }
+                table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 12px; text-align: center; }
+                th { background-color: #f2f2f2; font-weight: bold; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+            </style>
+
+        </head>
+
+        <body>
+            <div class="container">
+                <div class="header">
+                    <h1>运动检测报告</h1>
+
+                    <p>日期: 2025-06-05 22:39:02</p>
+
+                </div>
+
+                
+                <div class="section">
+                    <h2 class="section-title">用户信息</h2>
+
+                    <p>检测部位: 左手</p>
+
+                    <p>身高: 175.0 cm</p>
+
+                    <p>体重: 70.0 kg</p>
+
+                </div>
+
+                
+                <div class="section">
+                    <h2 class="section-title">运动统计</h2>
+
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-label">动作总数</div>
+                            <div class="stat-value">6 个</div>
+
+                        </div>
+
+                        <div class="stat-item">
+                            <div class="stat-label">最大速度</div>
+                            <div class="stat-value">8.39 m/s</div>
+
+                        </div>
+
+                        <div class="stat-item">
+                            <div class="stat-label">最大功率</div>
+                            <div class="stat-value">333.38 W</div>
+
+                        </div>
+
+                        <div class="stat-item">
+                            <div class="stat-label">最大马力</div>
+                            <div class="stat-value">0.447 HP</div>
+
+                        </div>
+
+                        <div class="stat-item">
+                            <div class="stat-label">总功</div>
+                            <div class="stat-value">1914.90 J</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <h2 class="section-title">运动统计图</h2>
+                    <div class="chart-row">
+                        
+                        <div class="chart-container">
+                            <img src="../charts/workout_duration.png" alt="Duration Chart">
+                        </div>
+                        
+                        
+                        <div class="chart-container">
+                            <img src="../charts/workout_displacement.png" alt="Displacement Chart">
+                        </div>
+
+                        
+                        
+                        <div class="chart-container">
+                            <img src="../charts/workout_power.png" alt="Power Chart">
+                        </div>
+
+                        
+                    </div>
+
+                    
+                    <h3>详细动作数据</h3>
+
+                    <table>
+                        <tr>
+                            <th>动作计数 #</th>
+
+                            <th>持续时间 (s)</th>
+
+                            <th>位移 (m)</th>
+
+                            <th>最大功率 (W)</th>
+
+                            <th>最大速度 (m/s)</th>
+
+                            <th>最大马力 (HP)</th>
+
+                        </tr>
+
+                        
+                        <tr>
+                            <td>1</td>
+
+                            <td>1.10</td>
+
+                            <td>0.30</td>
+
+                            <td>8.39</td>
+
+                            <td>0.2504</td>
+
+                        </tr>
+
+                        
+                        <tr>
+                            <td>2</td>
+
+                            <td>1.10</td>
+
+                            <td>0.50</td>
+
+                            <td>8.39</td>
+
+                            <td>0.4162</td>
+
+                        </tr>
+
+                        
+                        <tr>
+                            <td>3</td>
+
+                            <td>1.03</td>
+
+                            <td>0.50</td>
+
+                            <td>8.39</td>
+
+                            <td>0.4471</td>
+
+                        </tr>
+
+                        
+                        <tr>
+                            <td>4</td>
+
+                            <td>1.07</td>
+
+                            <td>0.50</td>
+
+                            <td>8.39</td>
+
+                            <td>0.4289</td>
+
+                        </tr>
+
+                        
+                        <tr>
+                            <td>5</td>
+
+                            <td>1.13</td>
+
+                            <td>0.52</td>
+
+                            <td>8.39</td>
+
+                            <td>0.4214</td>
+
+                        </tr>
+
+                        
+                        <tr>
+                            <td>6</td>
+
+                            <td>1.37</td>
+
+                            <td>0.48</td>
+
+                            <td>8.39</td>
+
+                            <td>0.3203</td>
+
+                        </tr>
+
+                        
+                    </table>
+
+                </div>
+
+                
+                <div class="footer">
+                    <p>分析视频: 俯卧撑3.mp4</p>
+
+                    <p>报告生成日期: 2025-06-05 22:39:02</p>
+
+                </div>
+
+            </div>
+
+        </body>
+
+        </html>
+
+        
